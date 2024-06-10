@@ -2,10 +2,27 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    /* gap: 8px; */
+    /* flex-wrap: wrap; */
     list-style: none;
     padding: 0;
     margin: 0;
 }
+
+/* .list_item {
+    flex-basis: calc((100% - 96px) / 5);
+}
+
+.img {
+    object-fit: cover;
+    height: 350px;
+    width: 100%;
+    transition: transform 250ms ease-in-out;
+}
+
+.img:hover {
+    transform: scale(1.1);
+} */
 
 .title {
     margin-top: 0px;
