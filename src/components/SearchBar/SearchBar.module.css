@@ -1,0 +1,39 @@
+.SearchBar_form {
+    background-color: white;
+    border: 1px solid rgb(131, 228, 160);
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.SearchBar_btn {
+    background-color: white;
+    border: 1px solid rgb(131, 228, 160);
+    border-radius: 8px;
+    background-color: rgb(131, 228, 160);
+    text-align: center;
+    padding: 8px;
+    border: none;
+    font-size: 20px;
+    line-height: 0;
+    transition: background-color 250ms linear;
+}
+
+.SearchBar_btn:hover {
+    background-color: rgb(113, 245, 101);
+}
+
+.SearchBar_input {
+    background-color: white;
+    font-size: 18px;
+    color: #000;
+    border: none;
+    padding: 8px;
+}
+
+.SearchBar_input::placeholder {
+    font-size: 18px;
+}

@@ -12,7 +12,7 @@ export default function MovieList({ items }) {
         return (
           <li key={id} className={css.list_item}>
             <Link to={`/movies/${id}`} state={location}>
-              <img
+              {/* <img
                 className={css.img}
                 src={
                   poster_path
@@ -20,7 +20,7 @@ export default function MovieList({ items }) {
                     : defaultImg
                 }
                 alt={title}
-              />
+              /> */}
               <h2 className={css.title}>
                 {title} ({release_date.slice(0, 4)})
               </h2>
